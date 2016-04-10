@@ -1,0 +1,36 @@
+{
+  "name": "algorithms",
+  "version": "0.0.1",
+  "description": "Sandbox for learning algorithms.",
+  "scripts": {
+    "karma": "karma start karma.conf.js",
+    "test": "tsc && karma start karma.conf.js --log-level debug --single-run",
+    "test:w": "concurrently \"npm run tsc:w\" \"npm run karma\" ",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "typings": "typings"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnostik-ua/algorithms.git"
+  },
+  "keywords": [
+    "algorithms"
+  ],
+  "author": "gnostik-ua",
+  "license": "MIT",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/gnostik-ua/algorithms/issues"
+  },
+  "homepage": "https://github.com/gnostik-ua/algorithms#readme",
+  "devDependencies": {
+    "concurrently": "^2.0.0",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^0.2.3",
+    "karma-jasmine": "^0.3.8",
+    "typescript": "^1.8.9",
+    "typings": "^0.7.12"
+  }
+}
