@@ -1,2 +1,3 @@
 /// <reference path="insertion.ts" />
-testSort(new InsertionSort())
+/// <reference path="sort.spec.ts" />
+testSort(new InsertionSort(), 'InsertionSort');

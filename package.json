@@ -4,7 +4,7 @@
   "description": "Sandbox for learning algorithms.",
   "scripts": {
     "karma": "karma start karma.conf.js",
-    "test": "tsc && karma start karma.conf.js --log-level debug --single-run",
+    "test": "tsc && karma start karma.conf.js --single-run",
     "test:w": "concurrently \"npm run tsc:w\" \"npm run karma\" ",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
